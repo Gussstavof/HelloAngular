@@ -6,3 +6,11 @@ div{
   font-weight: bold;
 }
 
+.btn{
+  background-color: #2B7A99;
+  border-color: #2B7A99;
+}
+
+.card{
+  border-color: #4780E5;
+}
