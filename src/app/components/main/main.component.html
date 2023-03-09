@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="p-5">
+    <form>
+      <div class="form-group">
+        <label class="form-label">Nome da Tarefa:</label>
+        <input type="text" class="form-control border-0" name="name" [(ngModel)]="task.name">
+      </div>
+      <div class="form-group">
+        <label  class="form-label">Descrição</label>
+        <textarea class="form-control border-0" name="description" [(ngModel)]="task.description"></textarea>
+      </div>
+      <div class="form-group">
+        <label >Data de entrega</label>
+        <input type="date" class="form-control border-0"  name="date" [(ngModel)]="task.date">
+      </div>
+      <div class="col-1 mx-auto p-3">
+        <input type="button" class="btn btn-secondary btn-lg" (click)="print()" value="click">
+      </div>
+    </form>
+  </div>
+</div>
